@@ -4,6 +4,8 @@ body {
 /* The html and body elements cannot have any padding or margin. */
     color: #ddd;
     background-color: #181818;
+    font-family: 'Lato';
+    text-rendering: optimizeLegibility;
 }
 
 .no-overflow {
@@ -281,9 +283,10 @@ input[type=text], input[type=password], #sendMessage, .badge {
     padding-top: 42px; /* topbar */
     -webkit-transition:0.35s ease all;
     transition:0.35s ease all;
+    font-size: 13px;
 }
 #bufferlines > table {
-  margin-top: 35px;
+    margin-top: 35px;
     width: 100%;
 }
 tr.bufferline {
@@ -295,6 +298,8 @@ tr.bufferline:hover {
 td.time {
     padding: 1px 5px 1px 1px;
     vertical-align: top;
+    border-collapse: separate;
+    border-spacing: 0px 2px;
 }
 
 .withnicklist {
